@@ -1,5 +1,5 @@
-# Roohan Kunta
-# Final Project - Addressbook
+# RKunt
+# Project - Addressbook
 # Python version 2
 
 
