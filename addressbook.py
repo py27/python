@@ -1,6 +1,4 @@
 # RKunt
-# Project - Addressbook
-# Python version 2
 
 
 from Tkinter import *
@@ -9,18 +7,6 @@ from contacts  import *
 import csv
 import pandas as pd
 
-""" Welcome to the AddressBook program, its just like an normal phonebook or adressbook 
-which holds the contact information of people like Name, Phone Number, Address and Email.
-
-We can enter the details of the person and ADD it to the contact list. We can perform
-Editing or Deleting or Retrieving a contact by highlighting the contact and clicking 
-on the respective buttons to do the necessary action we want to perform. 
-
-To save the entire contact list we can click the 'SAVE' button at the bottom of the 
-scroll view and it will save the contact details of the people you have entered by
-writing it to a CSV file using pandas. If the Save button is not clicked the changes 
-made to the contacts will not be save for future referals or retrievals.
-"""  
 
 def cselect():
 	""" This the function which sets the location when the cursor selects an contact from the list"""
